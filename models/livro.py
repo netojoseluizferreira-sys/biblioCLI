@@ -109,14 +109,14 @@ class Livro:
         return self._id == outro._id
 
     def __eq__(self, other: object) -> bool:
-        """Dois livros são iguais se têm mesmo id E mesmo ano (mesma edição)."""
+        """Dois livros são iguais se têm mesmo id E mesmo titulo (mesma edição)."""
         if not isinstance(other, Livro):
             return NotImplemented
-        return self._id == other._id and self._ano == other._ano
+        return self._id == other._id and self._titulo == other._titulo
 
     def __hash__(self) -> int:
-        """Hash consistente com __eq__: id + ano."""
-        return hash((self._id, self._ano))
+        """Hash consistente com __eq__: id + titulo."""
+        return hash((self._id, self._titulo))
 
     # ------------------------------------------------------------------
     # Representação
