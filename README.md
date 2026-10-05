@@ -37,12 +37,19 @@ Este projeto é o **primeiro integrador** da jornada, fechando o
 
 \`\`\`
 biblioCLI/
+
 ├── docs/          # documentação de arquitetura e testes
+
 ├── data/          # arquivo JSON de dados
+
 ├── models/        # classes do domínio
+
 ├── tests/         # testes automatizados
+
 ├── main.py        # ponto de entrada
+
 ├── LICENSE
+
 └── README.md
 \`\`\`
 
