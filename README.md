@@ -35,27 +35,20 @@ Este projeto é o **primeiro integrador** da jornada, fechando o
 
 ## Estrutura
 
-\`\`\`
+```
 biblioCLI/
-
 ├── docs/          # documentação de arquitetura e testes
-
 ├── data/          # arquivo JSON de dados
-
 ├── models/        # classes do domínio
-
 ├── tests/         # testes automatizados
-
 ├── main.py        # ponto de entrada
-
 ├── LICENSE
-
 └── README.md
-\`\`\`
+```
 
 ## Como usar
 
-\`\`\`bash
+```bash
 # Instalar dependências de desenvolvimento
 pip install -e ".[dev]"
 
@@ -64,7 +57,7 @@ python main.py
 
 # Rodar os testes
 pytest
-\`\`\`
+```
 
 ## Conceitos aplicados
 
